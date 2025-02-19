@@ -17,5 +17,10 @@
 }
 
 .menu-item a {
-    @apply font-semibold;
+    @apply font-semibold text-gray-800 dark:text-gray-100;
+}
+
+.menu-item.current-menu-item a,
+.menu-item a:hover {
+    @apply border-b-2 border-gray-800 dark:border-gray-100;
 }
