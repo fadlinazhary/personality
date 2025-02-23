@@ -63,9 +63,3 @@ collect(['setup', 'filters'])
             );
         }
     });
-
-add_filter('excerpt_more', 'excerpt_read_more');
-
-function excerpt_read_more() {
-    return '<a href="' . get_permalink() . '">...Read More</a>';
-}
