@@ -37,7 +37,7 @@
 
     @if ($closed)
       <x-alert type="warning">
-        {!! __('Comments are closed.', 'sage') !!}
+        {!! __('Comments are closed.', 'personality') !!}
       </x-alert>
     @endif
 
