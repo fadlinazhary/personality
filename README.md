@@ -1,5 +1,5 @@
 <div align="center">
-# Personality
+ <h1>Personality</h1>
 </div>
 
 
