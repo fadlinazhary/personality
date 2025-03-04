@@ -14,7 +14,7 @@
 <section id="portofolio" class="p-5">
     <h1 class="text-3xl font-semibold">What I've Built</h1>
     <div id="image-gallery" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
-        <div class="bg-white shadow-lg rounded-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl">
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl p-3">
             <img src="{{ asset('images/portofolio-shipmon.png') }}" class="w-full h-48 object-cover" alt="Gallery Image">
             <div class="p-4">
                 <h3 class="text-lg font-semibold">Shipmon</h3>

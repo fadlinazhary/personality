@@ -2,15 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-    img {
-        @apply rounded-md;
-    }
-
+@layer base {   
     input, textarea {
         @apply text-black;
     }
 }
+
+/* Posts */
+
+#post-content img {
+    @apply w-2/3 h-auto object-cover mx-auto my-4 rounded-lg shadow-md;
+}
+
+/* Navbar */
 
 .menu-item {
     @apply mx-3;

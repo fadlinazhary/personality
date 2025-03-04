@@ -1,4 +1,4 @@
-<article @php(post_class('min-h-screen w-full lg:w-3/4 mx-auto'))>
+<article @php(post_class('min-h-screen w-full lg:w-4/5 mx-auto'))>
   <header>
     <h1 class="p-name text-2xl md:text-4xl font-bold text-center">
       {!! $title !!}
@@ -7,10 +7,10 @@
       @include('partials.entry-meta')
     </section>
 
-    <hr class="mx-auto w-8 border-t-2 my-4">
+    <hr class="mx-auto w-8 border-t-2 my-4 border-black dark:border-gray-100">
   </header>
 
-  <section class="text-justify md:text-lg leading-8">
+  <section class="text-justify md:text-lg leading-8" id="post-content">
     @php(the_content())
   </section>
 
@@ -25,5 +25,5 @@
   @endif --}}
   
   
-  {{-- @php(comments_template()) --}}
+  @php(comments_template())
 </article>
