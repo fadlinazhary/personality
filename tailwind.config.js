@@ -7,7 +7,8 @@ const config = {
       colors: {}, // Extend Tailwind's default colors
     },
     fontFamily: {
-      'sans': ['"Plus Jakarta Sans"', 'sans-serif'],
+      sans: ['Nunito', 'sans-serif'],
+      mono: ['"JetBrains Mono"', 'ui-monospace'],
     }
   },
   plugins: [],

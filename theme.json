@@ -1274,9 +1274,14 @@
       "customFontSize": false,
       "fontFamilies": [
         {
-          "fontFamily": "\"Plus Jakarta Sans\",sans-serif",
-          "name": "\"Plus Jakarta Sans\"",
+          "fontFamily": "Nunito,sans-serif",
+          "name": "Nunito",
           "slug": "sans"
+        },
+        {
+          "fontFamily": "\"JetBrains Mono\",ui-monospace",
+          "name": "\"JetBrains Mono\"",
+          "slug": "mono"
         }
       ],
       "fontSizes": [

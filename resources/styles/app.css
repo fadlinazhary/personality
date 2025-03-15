@@ -1,3 +1,5 @@
+@import './fonts.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,13 +11,11 @@
 }
 
 /* Posts */
-
 #post-content img {
     @apply w-2/3 h-auto object-cover mx-auto my-4 rounded-lg shadow-md;
 }
 
 /* Navbar */
-
 .menu-item {
     @apply mx-3;
 }
@@ -28,3 +28,13 @@
 .menu-item a:hover {
     @apply border-b-2 border-gray-800 dark:border-gray-100;
 }
+
+/* Post Category */
+ul.post-categories {
+    @apply block space-y-6 md:inline-flex md:space-y-0 p-3;
+}
+
+ul.post-categories li a {
+    @apply px-4 py-2 mx-1 space-y-6 border border-transparent rounded bg-gray-800 text-gray-100 dark:bg-gray-100 dark:text-gray-800 hover:bg-white hover:border-gray-800 hover:text-gray-800 dark:hover:bg-gray-800 dark:hover:border-gray-100 dark:hover:text-gray-100 transition-colors;
+}
+

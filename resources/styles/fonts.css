@@ -1,0 +1,51 @@
+/* Font Face */
+
+/* For Sans Serif, I use "Nunito" */
+@font-face {
+    font-display: swap;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    src: url('@fonts/nunito-v26-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Nunito';
+    font-style: italic;
+    font-weight: 400;
+    src: url('@fonts/nunito-v26-latin-italic.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    src: url('@fonts/nunito-v26-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    src: url('@fonts/nunito-v26-latin-800.woff2') format('woff2');
+}
+
+/* Using "JetBrains Mono" for monospace  */
+@font-face {
+    font-display: swap;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('@fonts/jetbrains-mono-v20-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: url('@fonts/jetbrains-mono-v20-latin-700.woff2') format('woff2');
+}

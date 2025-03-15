@@ -4,7 +4,7 @@
   @include('partials.page-header')
 
   <main class="my-5">
-    <h1 class="font-medium text-3xl text-center">Welcome to {{ $siteName }}</h1>
+    <h1 class="font-semibold text-3xl text-center">Welcome to {{ $siteName }}</h1>
   </main>
 
   @if (! have_posts())

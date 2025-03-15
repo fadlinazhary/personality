@@ -6,7 +6,7 @@
         <div class="text-center">
             <x-heroicon-s-exclamation-circle class="h-24 w-24 mx-auto text-black dark:text-white" />
             <h1 class="mt-4 text-3xl font-bold">Not Found</h1>
-            <p class="mt-2 font-medium">Sorry, we couldn't find the page you're looking for.</p>
+            <p class="mt-2">Sorry, we couldn't find the page you're looking for.</p>
         </div>
     </div>
   @endif
