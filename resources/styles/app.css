@@ -38,3 +38,8 @@ ul.post-categories li a {
     @apply px-4 py-2 mx-1 space-y-6 border border-transparent rounded bg-gray-800 text-gray-100 dark:bg-gray-100 dark:text-gray-800 hover:bg-white hover:border-gray-800 hover:text-gray-800 dark:hover:bg-gray-800 dark:hover:border-gray-100 dark:hover:text-gray-100 transition-colors;
 }
 
+/* Post Navigation */
+.posts-navigation .nav-previous, 
+.posts-navigation .nav-next {
+    @apply underline font-mono;
+}
