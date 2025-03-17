@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-  @include('partials.content-home')
+  @include('partials.content-page-home')
 
   @if(have_posts())
     <section class="p-5" id="blog">

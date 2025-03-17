@@ -3,8 +3,9 @@
         <h1 class="text-3xl font-semibold">About the Author (Fadlin Azhary)</h1>
         <ul class="list-disc p-4">
             <li class="py-1">A web developer from Bengkalis Regency, Riau, Indonesia</li>
-            <li class="py-1">Currently learning Laravel, WordPress, and NextJS</li>
+            <li class="py-1">Currently learning Laravel, WordPress, and JavaScript frameworks</li>
             <li class="py-1">An Arch Linux user!</li>
+            <li class="py-1">Loves Violet Evergarden. #1 Violet Evergarden fan</li>
         </ul>
     </div>
     <div>

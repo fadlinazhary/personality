@@ -1,5 +1,5 @@
 @extends('layouts.app')
 
 @section('content')
-    @include('partials.content-about')
+    @include('partials.content-page-about')
 @endsection

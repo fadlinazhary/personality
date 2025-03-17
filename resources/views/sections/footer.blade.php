@@ -18,6 +18,6 @@
   </section> --}}
 
   <section class="text-center">
-    <div class="font-bold">&copy; {{ date('Y') }}. Made with &#x2764; by <a href="https://github.com/fadlinazhary" target="_blank">&#64;fadlinazhary</a></div>
+    <div class="font-bold font-mono">&copy; {{ date('Y') }} by Fadlin</div>
   </section>
 </footer>
