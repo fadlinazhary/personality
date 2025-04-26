@@ -4,5 +4,93 @@
 @tailwind utilities;
 
 .wp-block {
-    @apply font-sans;
+    @apply font-sans px-5 w-4/5 mx-auto;
+}
+
+.wp-block-heading {
+    @apply font-bold;
+}
+
+.wp-block-paragraph {
+    @apply text-lg;
+}
+
+.wp-block-image img {
+  @apply mx-auto;
+}
+
+.wp-block-image figcaption {
+  @apply text-center text-gray-500 ;
+}
+
+/* Editor */
+
+/* Post title */
+.editor-post-title {
+    @apply text-5xl font-bold text-center;
+}
+
+/* Wrapper */
+.editor-styles-wrapper {
+    @apply px-5;
+}
+
+.editor-styles-wrapper > * {
+    @apply py-3;
+}
+
+/* Heading */
+.editor-styles-wrapper h1 {
+    @apply text-4xl font-bold;
+}
+
+.editor-styles-wrapper h2 {
+    @apply text-3xl font-bold;
+}
+
+.editor-styles-wrapper h3 {
+    @apply text-2xl font-bold;
+}
+
+.editor-styles-wrapper h4 {
+    @apply text-xl font-bold;
+}
+
+.editor-styles-wrapper h5 {
+    @apply text-lg font-bold;
+}
+
+.editor-styles-wrapper h6 {
+    @apply text-base font-bold;
+}
+
+/* Link */
+.editor-styles-wrapper a {
+    @apply underline transition-all;
+}
+
+.editor-styles-wrapper a:hover {
+    @apply no-underline;
+}
+
+/* Image */
+.editor-styles-wrapper img {
+    @apply shadow-md rounded-md;
+}
+
+/* Quote */
+.wp-block-quote {
+    @apply text-lg border-l-4 border-l-gray-800 bg-gray-200;
+}
+
+.wp-block-quote p {
+    @apply italic;
+}
+
+.wp-block-quote cite {
+    @apply font-bold;
+}
+
+.editor-styles-wrapper blockquote {
+    @apply pl-3;
 }
