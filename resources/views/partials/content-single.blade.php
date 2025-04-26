@@ -12,7 +12,7 @@
             <section class="flex justify-center m-3">
                 @include('partials.entry-meta')
             </section>
-            <hr class="mx-auto w-8 border-t-2 my-4 border-black dark:border-gray-100">
+            <hr class="mx-auto w-8 border-t-2 my-4 border-black">
         </header>
 
         {{-- Featured Image --}}
@@ -27,7 +27,7 @@
         </section>
     </article>
 
-    <hr class="mx-auto border-t-2 my-5 border-black dark:border-gray-100">
+    <hr class="mx-auto border-t-2 my-5 border-black">
 
     @if (!empty($olderCategoryPosts))
         <section id="older-category-posts">

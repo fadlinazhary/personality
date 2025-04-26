@@ -1,4 +1,4 @@
-<section class="px-10 mt-3 flex flex-col md:flex-row min-h-screen items-center justify-normal md:justify-around dark:text-white">
+<section class="px-10 mt-3 flex flex-col md:flex-row min-h-screen items-center justify-normal md:justify-around">
     <div>
         <h1 class="text-3xl font-semibold">About the Author (Fadlin Azhary)</h1>
         <ul class="list-disc p-4">
@@ -22,5 +22,5 @@
                 <p class="text-gray-600">A ship construction management system using Laravel and Chart.js</p>
             </div>
         </div>
-    </div>    
+    </div>
 </section>

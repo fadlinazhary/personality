@@ -7,7 +7,7 @@
     @php(wp_head())
   </head>
 
-  <body @php(body_class(['bg-gray-100 text-black dark:bg-gray-800 dark:text-white']))>
+  <body @php(body_class(['bg-gray-100 text-black']))>
     @php(wp_body_open())
     {{-- Set background as gray --}}
     <div id="app">

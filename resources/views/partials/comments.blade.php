@@ -7,12 +7,12 @@
         @foreach ($comments as $comment)
           <div class="my-4">
               <div class="font-bold">{{ get_comment_author($comment) }}</div>
-              <div class="text-sm text-gray-600 dark:text-gray-200">at {{ get_comment_date('', $comment) }}</div>
+              <div class="text-sm text-gray-600">at {{ get_comment_date('', $comment) }}</div>
               <div class="mt-2 text-md">{{ $comment->comment_content }}</div>
           </div>
         @endforeach
       </ol>
-      
+
       @if ($paginated)
         <nav aria-label="comment">
           <ul class="pager">
@@ -29,7 +29,7 @@
             @endif
           </ul>
         </nav>
-      @endif 
+      @endif
 
     @endif
 
