@@ -4,59 +4,60 @@
 @tailwind utilities;
 
 @layer base {
-    input, textarea {
-        @apply text-black;
-    }
+  input,
+  textarea {
+    @apply text-black;
+  }
 }
 
 /* Navbar */
 .menu-item {
-    @apply mx-3;
+  @apply mx-3;
 }
 
 .menu-item a {
-    @apply font-semibold text-gray-800 dark:text-gray-100;
+  @apply font-semibold text-gray-800 dark:text-gray-100;
 }
 
 .menu-item.current-menu-item a,
 .menu-item a:hover {
-    @apply border-b-2 border-gray-800 dark:border-gray-100;
+  @apply border-b-2 border-gray-800 dark:border-gray-100;
 }
 
 /* Posts */
 /* Add padding to elements inside #post-content */
 #post-content > * {
-    @apply py-4;
+  @apply py-3;
 }
 
 /* Post Headings */
 #post-content h1 {
-    @apply text-4xl font-bold;
+  @apply text-4xl font-bold;
 }
 
 #post-content h2 {
-    @apply text-3xl font-bold;
+  @apply text-3xl font-bold;
 }
 
 #post-content h3 {
-    @apply text-2xl font-bold;
+  @apply text-2xl font-bold;
 }
 
 #post-content h4 {
-    @apply text-xl font-bold;
+  @apply text-xl font-bold;
 }
 
 #post-content h5 {
-    @apply text-lg font-bold;
+  @apply text-lg font-bold;
 }
 
 #post-content h6 {
-    @apply text-base font-bold;
+  @apply text-base font-bold;
 }
 
 /* Post Images */
 #post-content img {
-    @apply w-1/2 h-auto object-cover mx-auto mt-4 mb-2 rounded-lg shadow-md;
+  @apply w-2/3 h-auto object-cover mx-auto mt-4 mb-2 rounded-lg shadow-md;
 }
 
 /* Post Caption */
@@ -70,43 +71,43 @@
 
 /* Post Quotes */
 #post-content blockquote {
-    @apply pl-3 text-lg border-l-4 border-l-gray-800 bg-gray-200;
+  @apply pl-3 text-lg border-l-4 border-l-gray-800 bg-gray-200;
 }
 
 #post-content blockquote > p::before {
-    content: "“";
-    @apply text-2xl italic;
+  content: '“';
+  @apply text-2xl italic;
 }
 
 #post-content blockquote > p {
-    @apply italic;
+  @apply italic;
 }
 
 #post-content blockquote > p::after {
-    content: "”";
-    @apply text-2xl italic;
+  content: '”';
+  @apply text-2xl italic;
 }
 
 #post-content blockquote cite::before {
-    content: "\2014 ";
-    @apply mr-2;
+  content: '\2014 ';
+  @apply mr-2;
 }
 
 #post-content blockquote cite {
-    @apply font-bold;
+  @apply font-bold;
 }
 
 /* Post Category */
 ul.post-categories {
-    @apply block space-y-6 md:inline-flex md:space-y-0 p-3;
+  @apply block space-y-6 md:inline-flex md:space-y-0 p-3;
 }
 
 ul.post-categories li a {
-    @apply px-4 py-2 mx-1 space-y-6 border border-transparent rounded bg-gray-800 text-gray-100 transition-colors;
+  @apply px-4 py-2 mx-1 space-y-6 border border-transparent rounded bg-gray-800 text-gray-100 transition-colors;
 }
 
 /* Post Navigation */
 .posts-navigation .nav-previous,
 .posts-navigation .nav-next {
-    @apply underline font-mono;
+  @apply underline font-mono;
 }
